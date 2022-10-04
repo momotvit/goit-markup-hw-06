@@ -584,15 +584,36 @@
         <form>
           <label class="modal-label">
             Ім'я
-            <input type="text" name="name" placeholder=" " />
+            <div class="input-wrap">
+              <input type="text" name="name" placeholder=" " />
+              <svg width="18" height="18" class="icon-input">
+                <use
+                  href="./images/symbol-defs2.svg#icon-person-black-18dp-1"
+                ></use>
+              </svg>
+            </div>
           </label>
           <label class="modal-label">
             Телефон
-            <input type="tel" name="phone" placeholder=" " />
+            <div class="input-wrap">
+              <input type="tel" name="phone" placeholder=" " />
+              <svg width="18" height="18" class="icon-input">
+                <use
+                  href="./images/symbol-defs2.svg#icon-phone-black-18dp-1"
+                ></use>
+              </svg>
+            </div>
           </label>
           <label class="modal-label">
             Пошта
-            <input type="email" name="email" placeholder=" " />
+            <div class="input-wrap">
+              <input type="email" name="email" placeholder=" " />
+              <svg width="18" height="18" class="icon-input">
+                <use
+                  href="./images/symbol-defs2.svg#icon-email-black-18dp-1"
+                ></use>
+              </svg>
+            </div>
           </label>
           <label class="modal-coment">
             Коментар
@@ -602,9 +623,10 @@
               placeholder="Введіть текст"
             ></textarea>
           </label>
-          <label for="">
-            <input type="checkbox" />
-            Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a>
+          <label for="" class="checkbox-label">
+            <input type="checkbox" c />
+            Погоджуюся з розсилкою та приймаю
+            <a href="" class="input-link">Умови договору</a>
           </label>
           <button type="submit" class="modal-btn">Відправити</button>
         </form>
