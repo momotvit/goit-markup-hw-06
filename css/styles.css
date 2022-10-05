@@ -958,7 +958,18 @@ input:focus+.icon-input {
 
 }
 
-textarea {
+
+.zoom::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+
+}
+
+.zoom {
     height: 120px;
     width: 100%;
     resize: none;
@@ -968,7 +979,7 @@ textarea {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     font-size: 12px;
-    line-height: 14.06px;
+    line-height: 1.17;
     letter-spacing: 0.01em;
     color: var(--logo-black-color);
     outline: none;
@@ -976,17 +987,12 @@ textarea {
 
 }
 
-textarea:focus {
+.zoom:focus {
     border-color: rgba(33, 150, 243, 1);
 }
 
-textarea::placeholder {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14.06px;
-    letter-spacing: 0.01em;
-    color: rgba(117, 117, 117, 0.5);
-}
+
+
 
 .checkbox {
     appearance: none;
