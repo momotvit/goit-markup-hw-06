@@ -839,7 +839,6 @@ ul {
     transform: translate(-50%, -50%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-
 }
 
 
@@ -930,6 +929,8 @@ ul {
     border-color: rgba(33, 150, 243, 1);
 }
 
+
+
 .input-wrap {
     position: relative;
 }
@@ -958,17 +959,6 @@ input:focus+.icon-input {
 
 }
 
-
-.zoom::placeholder {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.01em;
-    color: rgba(117, 117, 117, 0.5);
-
-}
-
 .zoom {
     height: 120px;
     width: 100%;
@@ -991,6 +981,16 @@ input:focus+.icon-input {
     border-color: rgba(33, 150, 243, 1);
 }
 
+.zoom::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+
+
+}
 
 
 
