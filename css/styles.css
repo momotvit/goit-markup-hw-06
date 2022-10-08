@@ -1004,10 +1004,19 @@ input:focus+.icon-input {
     display: inline-block;
     width: 16px;
     height: 15px;
+    border-radius: 2px;
+
     background-image: url(../images/Vector-use.svg);
     margin-left: 13px;
     margin-right: 7px;
 }
+
+.checkbox:focus+.icon {
+    outline: 2px solid rgba(24, 140, 232, 1);
+    ;
+}
+
+
 
 
 .checkbox:checked+.icon {
